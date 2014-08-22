@@ -26,3 +26,4 @@ if (isset($row)) {
 $del = "DELETE FROM users WHERE userID='uID'";
 $query = mysqli_query($dbc, $del)or die("Sorry, we could not delete your account at this time.");
 print("Your account has been deleted, please contact us if your experience with the site has not been satisfactory.");
+?>
